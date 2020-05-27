@@ -1,0 +1,172 @@
+html, body {
+	font-family: 'Lato', sans-serif;
+}
+
+.red {
+	border: dashed 1px red;
+}
+.top-line {
+	width: 100%;
+	background: white;
+	padding-top: 22px;
+	padding-bottom: 22px;
+}
+.container {
+	width: 1116px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.logo {
+	width: 300px;
+	float: left;
+	font-family: 'Merriweather', serif;
+	color: #005FA3;
+	font-size: 36px;
+	line-height: 50px;
+}
+.logo svg {
+	margin-right: 20px;
+}
+.menu-line {
+	float: right;
+	width: calc(100% - 320px);
+}
+.info-line {
+	width: 100%
+}
+
+.info-line .w1 {
+	display: inline-block;
+	width: 24%;
+}
+.info-line .w2 {
+	display: inline-block;
+	width: 24%;
+}
+.info-line .w3 {
+	display: inline-block;
+	width: 24%;
+}
+.info-line .w4 {
+	display: inline-block;
+	width: 24%;
+}
+.menu {
+	padding-top: 15px;
+}
+ul.menu {
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+ul.menu li {
+	display: inline-block;
+	width: 19.1%;
+	color: #222222;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.first-screen {
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(saintp.jpg);
+	height: 670px;
+	margin-top: 60px;
+	border: solid 1px white;
+}
+
+
+h1 {
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+	font-size: 48px;
+	color: white;
+	max-width: 600px;
+}
+.slider {
+	margin-top: 200px;
+}
+
+.blue-button {
+	width: 270px;
+height: 60px;
+background: #005FA3;
+border:0;
+color: white;
+font-size: 14px;
+font-family: 'Lato', sans-serif;
+
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+margin-top: 30px;
+}
+.bullits ul {
+	color: white;
+	padding:0;
+	margin-top: 100px;
+}
+.bullits ul li {
+	display: inline-block;
+	color: white;
+	width: 50px;
+	font-size: 30px;
+}
+.navig {
+	float: right; 
+	margin-top: -70px;
+	text-align: center;
+}
+.navig .box-1 {
+	width: 60px;
+	height: 60px;
+	background: white;
+	opacity: 0.2;
+	display: inline-block;
+	margin-right: -3px;
+	
+}
+.navig .box-2 {
+	width: 60px;
+	height: 60px;
+	background: white;
+	opacity: 0.4;
+	display: inline-block;
+}
+
+.navig svg {
+	margin-top: 20px;
+}
+
+h2 {
+	font-family: 'Merriweather';
+font-style: normal;
+font-weight: 900;
+font-size: 48px;
+line-height: 69px;
+color: #333333;
+}
+.service-box {
+	width: 350px;
+	height: 360px;
+	background: url(img.jpg);
+	display: inline-block;
+	margin-right: 16px;
+	margin-bottom: 20px;
+	position: relative;
+}
+.service-box:hover {
+	background: linear-gradient(0deg, rgba(0, 95, 163, 0.65), rgba(0, 95, 163, 0.65)), url(img.jpg);
+}
+.service-box span {
+	font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 30px;
+	color: white;
+	position: absolute;
+	bottom: 30px;
+	left: 40px;
+}
